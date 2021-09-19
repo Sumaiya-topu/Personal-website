@@ -39,7 +39,7 @@ button{
 
 .top-container{
    
-    height: 500px;
+    height: 800px;
     background-image: url(images/header-bg2.png),url(images/header-bg.png);
     background-repeat: no-repeat,no-repeat;
     background-position: none, left top;
@@ -52,9 +52,84 @@ button{
     float: left;
     
 }
-
-#pic{
-    
-    width: 100%;   
+.container-box img{
+    width: 500px;
 }
 
+.pic{
+    width: 100%;
+}
+.box2{
+    width: 45%;
+    float: left;
+}
+
+.second-container{
+    background-image: url(images/dream-bg.png), url(images/biography-bg.png);
+    background-position: right center;
+    background-repeat:  no-repeat,no-repeat;
+    height: 700px;
+}
+
+
+.box2 h1{
+    color: black;
+    margin-top: 200px;
+}
+.box2 p{
+    color: gray;
+    margin-top: 50px;
+}
+
+.box2 .pic{
+    margin-top: 0%;
+}
+
+.ex h1{
+    text-align: center;
+    color: black;
+}
+
+.box3 h1{
+    font-size: 40px;
+}
+
+.third-container{
+    height: 500px;
+    background-image: url(images/exp-bg.png);
+    background-repeat: no-repeat;
+    background-position: left center;
+}
+.box3{
+    width: 30%;
+    padding: 30px 10px ;
+    box-sizing: inherit;
+    display: inline-block;
+    margin-top: 100px;
+    margin-left: 200px;
+    box-shadow: 0 0 10px pink;
+    border-left: solid 2px grey;
+}
+
+.box3 h2{
+    color: red;
+    margin:20px;
+    box-shadow: 0 0 5px lightpink;
+}
+
+.box3 h1{
+    color:black;
+    margin-left: 20px;
+    font-size: 30px;
+}
+
+.box3 p{
+    margin:20px;
+}
+#baby-web{
+
+    margin-left: 30px;
+    box-shadow: 0 0 10px greenyellow;
+    border-left: grey solid 2px;
+    
+}
