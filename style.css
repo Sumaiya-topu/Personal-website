@@ -1,0 +1,60 @@
+*{
+    margin: 0px;
+    padding: 0px;;
+}
+
+h1{
+    color: blue;
+    font-size: 72px;
+}
+h3{
+    font-size: 30px;
+}
+
+
+#intro{
+    margin-top: 200px;
+    margin-left: 100px;
+ }
+
+#intro p{
+    color: gray;
+    margin-top: 10px;
+}
+#intro h1{
+    margin:20px 0px;
+}
+
+button{
+    padding: 10px 50px;
+    margin: 30px 55px;
+    background-color: tomato;
+    border: none;
+    color: white;
+    border-radius: 50px;
+    cursor: pointer;
+    box-shadow: 5px 10 px black;
+}
+
+
+.top-container{
+   
+    height: 500px;
+    background-image: url(images/header-bg2.png),url(images/header-bg.png);
+    background-repeat: no-repeat,no-repeat;
+    background-position: none, left top;
+   
+}
+
+
+.container-box{
+    width:45%; 
+    float: left;
+    
+}
+
+#pic{
+    
+    width: 100%;   
+}
+
